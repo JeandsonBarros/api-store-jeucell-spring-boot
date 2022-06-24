@@ -204,7 +204,7 @@ public class UsersService {
                 change.setEmail(email);
 
                 SimpleMailMessage message = new SimpleMailMessage();
-                message.setFrom("jeandson.developer@gmail.com");
+                message.setFrom("example@gmail.com");
                 message.setTo(email);
                 message.setSubject("Código para alterar a senha da loja JeuCell");
                 message.setText("Código: "+change.getCode());
