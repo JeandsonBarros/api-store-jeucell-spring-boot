@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 //http://localhost:8080/swagger-ui/index.html
 
-//Authorization: Bearer "tokem aqui"
+//Authorization: Bearer "token aqui"
 
 @ComponentScan({
 		"com.apiloja.controller",
